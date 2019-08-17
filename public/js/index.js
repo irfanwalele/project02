@@ -1,8 +1,12 @@
-// Get references to page elements
 var $exampleText = $("#example-text");
 var $exampleDescription = $("#example-description");
+var $examplePrice = $("#example-price");
+var $exampleUserName1 = $("#example-userName1");
+var $exampleEmail = $("#example-email");
+var $examplePassword = $("#password");
 var $submitBtn = $("#submit");
 var $exampleList = $("#example-list");
+
 
 // The API object contains methods for each kind of request we'll make
 var API = {
@@ -66,7 +70,8 @@ var handleFormSubmit = function(event) {
 
   var example = {
     text: $exampleText.val().trim(),
-    description: $exampleDescription.val().trim()
+    description: $exampleDescription.val().trim(),
+    price: $examplePrice.val().trim()
   };
 
   if (!(example.text && example.description)) {
