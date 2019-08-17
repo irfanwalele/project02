@@ -1,30 +1,18 @@
-This will be the home page
 <div id="home">
   <div class="container">
     <div class="row">
       <div class="col-8 offset-2">
         <h1>{{msg}}</h1>
-        <h2>Welcome to Plummer</h2>
-        <br>
-        <h2>Plummer is a place where blah blah</h2>
+        <h2>This is our Home Page!</h2>
         <form class="clearfix mb-4" action="POST">
-          
           <div class="form-group">
-            <label for="example-userName1">User Name</label>
-            <input type="text" id="example-userName1" class="form-control" aria-describedby="userName1" placeholder="Enter User Name">
+            <label for="example-text">Example Text</label>
+            <input type="text" id="example-text" class="form-control" aria-describedby="example-text" placeholder="Enter Example Text">
           </div>
-          
           <div class="form-group">
-            <label for="example-email">E-Mail</label>
-            <textarea class="form-control" id="example-email" aria-describedby="example-email" placeholder="Enter E-Mail"></textarea>
+            <label for="example-description">Example Description</label>
+            <textarea class="form-control" id="example-description" aria-describedby="example-description" placeholder="Enter Example Description"></textarea>
           </div>
-
-          <div class="form-group">
-            <label for="example-password">Enter Password</label>
-            <textarea class="form-control" id="example-password" aria-describedby="example-password" placeholder="Enter Password"></textarea>
-          </div>
-
-
           <button id="submit" class="btn btn-primary float-right">Submit</button>
         </form>
         <h3>Examples:</h3>
@@ -36,13 +24,10 @@ This will be the home page
           </li>
           {{/each}}
         </ul>
-        
       </div>
     </div>
-    
   </div>
 </div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
-<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
