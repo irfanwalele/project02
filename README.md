@@ -1,6 +1,15 @@
-# Project2-Group4
-Awesome!!!
-Irfan Walele
+# Project-2
+
+## Team Wolves
+* Team Members
+  * Irfan Walele
+  * Fahim
+  * Kozrun
+  * Yemi
+
+## Deployment
+* Heroku
+https://project2plummer.herokuapp.com/
 
 
 # Project Requirements
@@ -28,3 +37,4 @@ Your project must:
 * Meet good quality coding standards (indentation, scoping, naming).
 
 * Must not expose sensitive API key information on the server, see [Protecting-API-Keys-In-Node.md](../../../10-nodejs/03-Supplemental/Protecting-API-Keys-In-Node.md)
+
