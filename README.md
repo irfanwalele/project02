@@ -1,7 +1,7 @@
 # Project-2
 
-## Team Wolves
-* Team Members
+## Team Members
+
   * Irfan Walele
   * Fahim
   * Kozrun
